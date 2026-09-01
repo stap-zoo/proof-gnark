@@ -1,0 +1,138 @@
+{
+  "_comment": "neptune known-answer test vectors. modes present: compression, permutation, sponge. instances present: neptune-bls12-t2, neptune-bls12-t4, neptune-bn254-t4.",
+  "vectors": [
+    {
+      "instance": "neptune-bls12-t2",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x70ddcc1b593e370fecfae59967653e76cdb75995a38b64d55c268295f364015c",
+        "0x464d2b0e6c0dd09a9559c9508077e68bbf3782b877cc9280b51b2609330ba37b"
+      ]
+    },
+    {
+      "instance": "neptune-bls12-t2",
+      "mode": "compression",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x70ddcc1b593e370fecfae59967653e76cdb75995a38b64d55c268295f364015d"
+      ]
+    },
+    {
+      "instance": "neptune-bls12-t2",
+      "mode": "sponge",
+      "input": [
+        "0x1"
+      ],
+      "output": [
+        "0x18dc226edb4885bbf687a2eb5a0af7323c934d445d780841ab7ee00b967ff839"
+      ]
+    },
+    {
+      "instance": "neptune-bls12-t2",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x5006e1a9d65c4e87b47f8dbae57d691d8456bab732359c31843804143f269015"
+      ]
+    },
+    {
+      "instance": "neptune-bls12-t4",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x5611ca5027464dd7e338fe4388f47a6d76587910d185c7568f6cfb05fb853e12",
+        "0x2d2445b2b98e9ab759170c48f04f47131934ab7c9415088cfcb5ebbc6e8bbaaf",
+        "0x52d8975107e83e0c0d7e408fd45ce23cff4a4b174deb168c74ffac95fece164f",
+        "0x4c2339473ed46f0617fcf42d81e7398b2789ec248080b3a18135cffbadbce4c8"
+      ]
+    },
+    {
+      "instance": "neptune-bls12-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x6747b97e8a894b0b860bfa2d77aefe80794053314530bce14895fef534c3230e"
+      ]
+    },
+    {
+      "instance": "neptune-bls12-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x1b3ad167c69d6753e26a0c21cc462123d9bfe841599948fa15581853bd44bdb2"
+      ]
+    },
+    {
+      "instance": "neptune-bn254-t4",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x1b210d1a54b5c780083be9ce351af1177787d012f5c954622e8a3be35fc9058",
+        "0x20638a23541137eed69998b1d20532edfaff43012e1279e6e5cec299be8bdff0",
+        "0x1a7f6a5eedc2dd97f9893fc1b82d9b1dd7e1106e695a51d5173b92b39e32ce42",
+        "0x13dd6bee6e8ab24e358f2d18c0a330b8c7a7805a14de9482c071d27381e3f744"
+      ]
+    },
+    {
+      "instance": "neptune-bn254-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x238387a04efdcea51e24b05f77837b8a96181354ca902bd2e43a9907b893fe29"
+      ]
+    },
+    {
+      "instance": "neptune-bn254-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0xd8abf9c2ab3f31a3dc52f403cc7ae2ea47ee827db56047e5a6aeaad82381950"
+      ]
+    }
+  ]
+}

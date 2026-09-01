@@ -1,0 +1,1025 @@
+{
+  "_comment": "polocolo known-answer test vectors. modes present: permutation, sponge. instances present: polocolo-bls12-381-scalar-t3, polocolo-bls12-381-scalar-t3-tight, polocolo-bls12-381-scalar-t4, polocolo-bls12-381-scalar-t4-tight, polocolo-bls12-381-scalar-t5, polocolo-bls12-381-scalar-t6, polocolo-bls12-381-scalar-t6-tight, polocolo-bls12-381-scalar-t7, polocolo-bls12-381-scalar-t8, polocolo-bls12-381-scalar-t8-tight, polocolo-bn254-scalar-t3, polocolo-bn254-scalar-t3-tight, polocolo-bn254-scalar-t4, polocolo-bn254-scalar-t4-tight, polocolo-bn254-scalar-t5, polocolo-bn254-scalar-t6, polocolo-bn254-scalar-t6-tight, polocolo-bn254-scalar-t7, polocolo-bn254-scalar-t8, polocolo-bn254-scalar-t8-tight.",
+  "vectors": [
+    {
+      "instance": "polocolo-bls12-381-scalar-t3",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x3cc182df9b387d475ca19a9a6f671310d8fe1044ad4ae5b852c6cdcab66a83fa",
+        "0xf394ffe5b3a633a1a101cd7ab41a93f44987ddc6b369a67281149cc9d1fed6a",
+        "0x494289f9c318d3f9c3a24543be40c3d1e3167b220425e67aa29e713ce8478dcd"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x4da041b4c9a811368f08e7a81ed6e28f23c6e5735915e0ac1855871bcb4cf982"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0xc86b9df495bf7080be65bd718d353c2e6ac3e76dd2cc65b767d0bf535436996"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t3-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x20d7704fb0420beb250f19e0c1da787fb97ca7abd0cda790afd798e59a4a8f56",
+        "0x6b79a76961bde83cd00ccae6d0346dbbfbad7a2e5246560ff8115535b50b1d2d",
+        "0x579d280ec61bffbffcdafc6c4e9dc65b9b477e14d4b443d3136cdab5c8e6d951"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t3-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x3a49dd9b66d90c607b0df112c139cfe765d7efcc67031b966a41ba904e46b451"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t3-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x4fc8730f4aa19a77c0e27d3a1347357df4099a14896aa381ca524a44351a1642"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t4",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x1069001b91b1ce7faf368634231d12fb7bd2b36d452e02ec15d0c812a75b6d13",
+        "0x431778260687d961054ee973e656402fee36128ecd3efb7b6384a19a947d8beb",
+        "0x491e1f769beba9f2f4d1d6360e5a68a385db205fa201b7dc40222cb946e645de",
+        "0x1d03a3f1a0c0179e2230108e906f4fd8ff4ec085dfdf33733805f61b5c4b379e"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x67505231054b36ab3360006d69627ded4ef7a3bff95506812d7a3fba1cbb796b"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x2e568f6fa4247c83cc951b69ed068c5fad2db01642e626ce661282855367b4ee"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t4-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x790aca273314ea67e64a87a90b9690b8c390b47561a8ab91c291ed222955cf9",
+        "0x5452b547e5fb184b6daf634b5e53c78cec24a6348b853e526dcf47517b19b4a1",
+        "0x41da3c31c7f76a1b20af774b8f2277aa6f703df478959e081b287662205c7353",
+        "0x44e5fb6d139bf0b43c2e7df2283ec19a460770b8e7f9d5a55a8d9d2e97fd5301"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t4-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x466a3a11032fb20b100ac55da02258c3119d664847b144e037b79f3555aedb5d"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t4-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x57b64ec7f755cfdc5bcff9207e7f0350e2ad02017b309c8ff4dfbab1e8282562"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t5",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x8d7d7d12dd679252c91694653717111d849bbc8474c653265fc7c43b383f737",
+        "0x20966561730cbeb013fe8558ee6886383318086b5552297e5aa6dabe250827e0",
+        "0x23a95219eeaeaef3d028198e8b582db09adcdaf69c7f990361811ff449968376",
+        "0x6ba7769bccc88ce5cb4aada71d1276f7ae1abbbf46980947d5f07d64508a5dec",
+        "0x4de69708e312d700fe14a640dbe79a5079cf803fe14c122cddbe699a68e5d898"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t5",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x48f78b756a5bc508c35975016136dc12f878b04d4921c90708a554b6cc315a26"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t5",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9"
+      ],
+      "output": [
+        "0x1e89e58df7ef0a3e183dd864a64ee8368b590ed41a2b78190404838c80ef350d"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t6",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6"
+      ],
+      "output": [
+        "0x24fb6cc4952488f3a89b2e11acc1a169f33cfa46c2491b0da1f60f1a1e0a91ef",
+        "0x3cdd04643d6dd82ad79eb8e684117f132628f6959ac950c3432024ec02a2d39a",
+        "0x57e2196ce686d8ebefc161778bd723c58a712ffa1548bc038e7785bba70187c9",
+        "0x37c5cba762ce70c7ab882f612b697e1ef9d3267392dd0793a1b592c9356a02f6",
+        "0x4efa7ec28efb1f899d1ce6b7d31ad0b0b47ed9d6ad38f9403f284a6a335c8a2e",
+        "0x39bc02ea3922cb835fc7c41c3d447c6a2fce892956a5eb22bb986dfe57674755"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t6",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x4ad0d750c708abb1cfa7344d5fc7088c3920be0745369e6f743ee2c72f7c8eca"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t6",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb"
+      ],
+      "output": [
+        "0x6d08d965a78c47f1c2235f443498a50327a19b9710ef7c53d8c3bae5a52995b7"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t6-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6"
+      ],
+      "output": [
+        "0x4da17278392a6f74c57b9a8b43b7245255c3f71c56e5f2f1e9d6c06c65929c41",
+        "0x1ee1d0ba21cb19fbacc34413a945236322a383ab31544569b6b746b27883f8bb",
+        "0x702ef0d62533cf336ab0e28713804dd6a1e0186067e10ec67425dd52e04f9476",
+        "0x50a329e2ed79aab4f1284584f02c268b8f9ed70875abc09146aa627e4accd466",
+        "0x3ebfc6433a4186d05466dc7f93a041b243f90c573b4367829a803baa560cbedf",
+        "0x4d846398c8f71e10a9a4119d6bd6df0ea5dfa430b2e16fb574ff0aacc7ec57fe"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t6-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x63c1928db540c7e2ff694d1e72ddf5bbb5b4b868d12182ccb66d8f305611f6df"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t6-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb"
+      ],
+      "output": [
+        "0x63772bc7239b4d758979d203681b422433dc2cc28f1300ea8c6dd48d2a734fe"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t7",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x6190db9fee544042d207fb45a4af8a3fe0d340f2e522eb16919720bdc39bd8da",
+        "0x256bf57dd96ead886611137a2637daa37ccb990942cea54909f3e29adc4a756b",
+        "0x27dd795597d813ff7d4a760d1961bc81446a1a7a836853cbba9ea12e3dd3fe92",
+        "0x447f63f7f719e6ca6dd0f8ca03733385c3eb5b817595c2092177ef8511ac62b9",
+        "0x6285f11c54d16fa7bdb24f493a25d3b5733508fc173acc7f9b60521331707f8d",
+        "0x505194ffca1b40feeca674dd2b2115f49d24035a4e53458cbf265cd6e05a8fb9",
+        "0x485f79740143d956e22b06b8a68dcb5995d1ca61e7c971a1df65d0f07981e86b"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t7",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6"
+      ],
+      "output": [
+        "0x19727accc574cab4a0993bde49bb22e2d16d16d26e40963d27d1dbb5f55afe05"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t7",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd"
+      ],
+      "output": [
+        "0x4e52d27662e26268600f845acb93b77309aca02818d53874309c7304a205da79"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t8",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8"
+      ],
+      "output": [
+        "0x5594b6ee773adf9b9de7d0612a5895fa32059c749fb4d6562c774d435a38b319",
+        "0x1acb5cafc276867df1ba19b21e74bca0a01688e66ddf5802ec437d37433dd5eb",
+        "0x3a27af70526b1b7c3200877289b89d93972bb4c9fe1cb3c1f8a21b3f48b508b8",
+        "0x54f0c59bb09a63670f6b369dcd68715abbe87ce9bb163348ba9300011b6ee5a2",
+        "0x2c4fd92f93cf9ad4780200d91a65a85813e8102cdc7266a9a73d5ec1e9c45da5",
+        "0x627db58e7ce46ca9f83f2b6c7e12d2ba118ad48a96c2b6472e0957c590efec26",
+        "0x662b6cc0d1eb77323dfebfe1d356a7cc6af97403e02a7d3a8e5afbe38e32eda3",
+        "0x1e86a13ee1f678a1f4a4ca8d7ced98621fcf9428f95b16b9463dbabc1f4aac6e"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t8",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x18301254925eeef579efa045e6cc2cfd41f4dd98abf6a2e7d7cb0d9655ef4655"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t8",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd",
+        "0xe",
+        "0xf"
+      ],
+      "output": [
+        "0x6b492d2ff5b2718b8d8dde204f57740fe5a6f50800ff53815e6553ad32834e96"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t8-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8"
+      ],
+      "output": [
+        "0x403565c7d1f2e8663387cc904c0eebc0706dded0e2eee81629124822b7a8962a",
+        "0x991eaf71149343efa9f96179e6ce7fb49455def310a48a51b22b67b84b21b9b",
+        "0x1131a4ac713f780461e9106aafc5a1c4e671e35eec594957f5ece314aee776a9",
+        "0x22118f3ca37ab1498fb893d9b8d256f393e58be8561f13503eb10de7bf75dceb",
+        "0x3fcc9c962311e6e2d60e4a6e2ba83d125fd58129f95ee613ffcf0ee05e145e8f",
+        "0x21b1272737ba289a2d8ee4e0a91c6e360452a1c8cc22e47b55bcb3ea6897535",
+        "0x59e857f5a4aa1344226021e4a16b8012404bf4b23f4ff37014a24258adf98a5d",
+        "0x70c18b51c4d0fda518b5a12ef860d06262113407e0218bf7d067648aa6eb3d98"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t8-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x3c443e25ebb967dfd464f4902b4de297c60d62e6e58afc602e47ad37271cde9a"
+      ]
+    },
+    {
+      "instance": "polocolo-bls12-381-scalar-t8-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd",
+        "0xe",
+        "0xf"
+      ],
+      "output": [
+        "0x451dffe838a948cb1b692c995f58f925ba9084a32b1a51f882797da21cd1ffb7"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t3",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x2a10cd87e6d6ace0a9c85056ed4a261263de4e2ad9315ef0b68660aab3245684",
+        "0xeddf29af0e9ad61c22137646ee79b522b57fab772c1772048297b2b0c288734",
+        "0x15895f5e44ba0a5d6edbc5df19a340be8594d0cadeb1ed1930826fd41565ee24"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x7b67c154e9e172ac2dbcc54c5636afc1f96691a5e3eaa86531ec7c4de85d04c"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x2234612eb62bcc61620dc61ccdf083814b2cdb1b0e23340fea86d7e502e5819b"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t3-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x23e207b577cb6bf82743cb8cddcd3f172a5c78ff2c790659057de84424b9b6af",
+        "0x13e974449375ec6b63b3970348a575a9053b18198c1c5f93594f69e093f9c873",
+        "0x19223873683e2cbbb0e75b5f347dab5b1cbc144d7e955f5f33c8910b3ca22581"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t3-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x379b7876c34bbcf4494e18d63902ad774407d5fe8718bc2f84a6183964d268a"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t3-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x2e81cef359af1660a440793ed2cee1abc905cbc034dfafefb5ccf2164aab270e"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t4",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x1228b8f1acd10c85dcee00d28c33e7c5694eb111c38213c5ded30b126a6e6659",
+        "0xdf2c2cb247a201c7458e6eb571cca9dcbdae3c6a8a8543bab8c16dfaf5ebe1e",
+        "0x20e08661f188c27b705c2a41fee5c44ac361ebcf30df7e5aed2ce32fb299f958",
+        "0x156c1a7f69552cf89ea4b28d430c565d3c3aacbf2940a2824b6ba2db77efbd95"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x25be0a89c72b9f2b4b30265ed48fdc4087ef17e1433903d93afe05863a3a9868"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x6b00ccaf58bbf2a12bdc601e63c7d7e0f01ba42abd23bb629c5e80c25b005d4"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t4-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x24cfe348b41f82c78e3669b3438ded7fe07c5bc6a673ceb054daf305879a552a",
+        "0xfbb6fd9f29657be6722d2e285de4aba6fbe4beccb110d471f7dc42b1dfc2a17",
+        "0x15b07f3ed2e18584ebf293884848eb9967d8ca1a82094f3dfe685d9385e1888",
+        "0xa24880fb380e0a85a63d8ca92c510a80ce6d8666173b1bc65146d309f7bf27"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t4-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x2ddf0ba169445bbbda6a65a382b54c5667519bc74a81598ea281977e7b203dfc"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t4-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x685cb106f5c0b8e5ee66e85caf8e270678884678d45f10059d001c7f4fe66a6"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t5",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x4c6964b037f20c709a2d3e2ace551e327bb78e800beda7cfa88aad3de3ef405",
+        "0xad48edd1c20c0c71e9a03a99635ac010b723e8673f6407b66ae558586e112b8",
+        "0x87303884d0f1181dd81d6e53cd1bcdaf34e4827d2c3b3a58dcee6d1660dfb89",
+        "0x19b2be25c6f21c04f3ad36fbee23cb6adac9ac1ba09b1ef1c5e249df76619d81",
+        "0x1d46863d5df54fed996fc392f2236aec656b5a79319b7053fbbc12c4ea0bc149"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t5",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x22d157535c4a89ea6b532f63b83124d2cff072207456f3d36e633b8b793763a1"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t5",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9"
+      ],
+      "output": [
+        "0x29a87da505a8dbe90f9b1491c3de77a90c8ca1a0f2983cb7af300827646049b1"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t6",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6"
+      ],
+      "output": [
+        "0x1e96ff6bd7c446f6c45b7c7659843ef82acca1f6adfe41ec5d3a420b6d62cfb2",
+        "0x1db4d0f200bf91e2a244d2795ff706e6ca0b8632765fefa628621d1c149f6107",
+        "0x1507360501e0477c55d8636a26a0fcdd936f9cdcd1d5430ee49ea91e756ce6e1",
+        "0x2f6af94510601d20c46be7e5c143575397b81897366d8bb5ddeb6ddebab3de90",
+        "0x10478548a73cc5dc6bd6fd7d2b5a6d8bac7f7d566238deabac6162336abd7bd5",
+        "0x2cf1e443fb0079f9c6055ef74cd29511de166bb518d3e598036e6322c718ecfc"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t6",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x1d9e1e0a7246a0592925f0808b4a1fd5402967efb3a88aa82be698896e3f8914"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t6",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb"
+      ],
+      "output": [
+        "0x1daef1e7075821e6d6fcde8faaedec0c151d22440635d74edd8982db6a266a49"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t6-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6"
+      ],
+      "output": [
+        "0xf873acee6d55149fce287c5ef989c1a24f28ae3b84152568d3a71998f1f3ed1",
+        "0x113edf895736da75a3f2ad417a6855072e73ece4940c1e88d2c5fca31c26ae2c",
+        "0xc8667fcf624c8bc370289e40a7904d8273167bbb511a39541ca7a55b09de06",
+        "0x2402a8430140eb6f0a58db5df053227f31c81e6a861690c6a8813f0c48863237",
+        "0x69c78fac24423441c5b7e72d28b54579d13c4d9740aa20a51a87ed9b5e9c1e6",
+        "0x2dd289491d7bb3592c7235abd43a73ff2b75b833627e0f31930cd021ddb4f6a2"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t6-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x8d987fb729443706b7e9874ef2fcac34c935033e7fd29a9fdc3becda52ab02d"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t6-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb"
+      ],
+      "output": [
+        "0x1a7d99868b31edfec779400e04de8720721cb1b3da86748e7a0771e8c2ba31e"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t7",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x2c5cda21ca1b1efa3db1e0c6b344141004966e12f5886849309d3419a4f11684",
+        "0x1f5146881b53dc8ed52f2d3271909dedbffcc2fa99d6655c5376ee61dffe6432",
+        "0xa67bf4a5010a2253fe89f45f9bfe072c324595d79a7cb7b7cb2f5cf9c4b631f",
+        "0x1e56d9193b73b35ad64313e9199cff4fb7af62302d9f5fe8a0e74174445c00a6",
+        "0x17068cfcf7368b706bc8c7c0bc2fd6c42fb87a6372aaf5d737154254ee8c03f0",
+        "0x1ff3eccfa5bae86c288000be50fc46cd98666f6d59a834c5a4c1f12f4694c7c1",
+        "0x6c00142f208a94ce51f2904bf6a31d2ea215923a75ddbfb370e777430213f43"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t7",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6"
+      ],
+      "output": [
+        "0x38828b95d2111203424938dc49eecc6e00dc8c0a659e50f489daa89e56476cd"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t7",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd"
+      ],
+      "output": [
+        "0x27973422176b92fd4ce11d30ef327f063bde7219792c6c7b668c7f57c5d3c090"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t8",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8"
+      ],
+      "output": [
+        "0x2424fff064884cb630d76e54a4d6c5841af6163d93cff24dcd669e78ccab484c",
+        "0x22f357c888b70890e5f24ae80a7392d3ebf67c2f580fbb65d5fd23530aae29da",
+        "0x26744a859cdff97be46565942ef407bdbad7eddd493aefcd5bf008597f056b1b",
+        "0x27d76a473461ecfe1e851d95a9c743813627648e27485dd2b7400fd406c043c8",
+        "0x1799d915be28e51e687b1ccea2b094699e7f9978e5c37fe897351f092d5cc7ea",
+        "0x186f050e4a0ddce7933b73d5b6d28720b6ef7a25ec38de2fd44e21bf6843bdbf",
+        "0x1c44dd9544663dedb3bfb75fb8eb76c2a160b3501798b4280898493ed317e27d",
+        "0x19fc606f21d61fea181933575530710ddb477d8670a85ac37283b4398064f8a1"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t8",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x2f759fcb74f21aea3bcfded0c814c1d892e5bfa628a5fa50d927ea7ab3638460"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t8",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd",
+        "0xe",
+        "0xf"
+      ],
+      "output": [
+        "0x1e434d62e1db313f68010398ec234ba7d2d2232bc32048b3295d6442aee8c6d3"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t8-tight",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8"
+      ],
+      "output": [
+        "0x2c964c0f2775d3311d095a1ac4651f4d852f43b04ed1aa839d1f89bfc75ab175",
+        "0x1ce542975516ed51ff094953464907452796dd717de381d82ddd7a20d1f0a0a0",
+        "0x2b5d7282a28026e04e03246859bf025b65ec7a99f6378a38efdbd59c8f4698df",
+        "0xa4957e0532da843ff99e5e7e0b3863f5f4b1766d10a8d0d7887c0ff824ef0f",
+        "0x2005651bb5806a44a8f2a6cc916c15e21f124be279f113c1b95aca9528a244af",
+        "0x2ec85845296787ac9df0178d6b974fe77a1687947286b12d6b89a68b8e8c5f3b",
+        "0x19b28371f4ac4f655dd2d10267db674dad26765c4ba4a149356b2e57d48257b0",
+        "0x5be6c29103177bef25d679a6c55ae775530b14047e75f8bc4891f644f3a606f"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t8-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x10fc849997b7d55f8893aef15d54d99f961aaccffe636b6092fb596fb2999d2f"
+      ]
+    },
+    {
+      "instance": "polocolo-bn254-scalar-t8-tight",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd",
+        "0xe",
+        "0xf"
+      ],
+      "output": [
+        "0x222b8860107781bfd2514e6c929e46249825d118b8d793cb63b7750b86d2b172"
+      ]
+    }
+  ]
+}

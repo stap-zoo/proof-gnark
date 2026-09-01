@@ -1,0 +1,236 @@
+{
+  "_comment": "poseidon2 known-answer test vectors. modes present: compression, permutation, sponge. instances present: poseidon2-bls12-t2, poseidon2-bls12-t3, poseidon2-bls12-t4, poseidon2-bls12-t8, poseidon2-bn254-t3.",
+  "vectors": [
+    {
+      "instance": "poseidon2-bls12-t2",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x1ea288a0c9961ad36e84c107e277fbfd64fefd6c76cb21345d38cf6413239b61",
+        "0x1f3e1e1132a950252af62b4f0942f0fec5d796fa80b8111770f6edd397a324d5"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t2",
+      "mode": "compression",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x1ea288a0c9961ad36e84c107e277fbfd64fefd6c76cb21345d38cf6413239b62"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t2",
+      "mode": "sponge",
+      "input": [
+        "0x1"
+      ],
+      "output": [
+        "0x736b0fcfd9ca5d8db3ca2a69518189a0713d4377a261b305a0942f1324a76392"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t2",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x6029384b9e316f601fbfc0df051475c9459462673fb9d4f75ac751f0b67a4655"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t3",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x2397088985c22a0a03352dac46eb5ec8f24d9ad170335169b63e191bd2bf0927",
+        "0x69ae5e46194574cc81d9ef9243e3c87fd633dd80e47e0b3e663082eb129b065a",
+        "0x3eb5df5ff8fc52e069a00e454c4d26f021b7ff607a7119518fb8455a465e8975"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x556581aea2d5101dd34974d9c24b49fd31ba4d96983d5fe0ab1dace55e2bb8db"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x2436854379187ca142997027b29ba6491385ec7bc734d97c4784053d988f55ef"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t4",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4"
+      ],
+      "output": [
+        "0x12bcaef1b22552236117b6bf614f681465d0531021698ae7ea2d42eb4f0ae928",
+        "0xfd119eb1f08b8419afdb8f4e248fcb00391d2a71b0cdcb92192b6b376d4c6fe",
+        "0x2f6dccc58c192115e6bbceaa16f967ae769cc75c84f457ff6e98940c7b22f6a6",
+        "0x5279c9cfe15be66768ce00f03518ce1a6b9ed8c6fad7692a5b2e3475fb9419ab"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x3d4df6e0bdf8d9b51cd28081dc8bfc493518ca522a43aa3f605a0d58f8707768"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t4",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x4ed87cd1b2194052425f550cea879651f64314422a14f408f18d54ecb8e640d3"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t8",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8"
+      ],
+      "output": [
+        "0x8252a3f1a98cbcca257fe5dfff058cc26b23803659e882f46d17e58a7841e40",
+        "0x659c1b75999821336e5e215137b5e00a9dac9f726806c941959ca6b558280360",
+        "0x1ede3f41fbead431202704bb6a46a17aaabbd5c024eb686515d6412921a8a87",
+        "0x1fc317a9c374ead3224adb3c49e74fe8b4d0fd8679453b5683041e26e95f91ec",
+        "0xa3e54db4b53730c5539e7e01a00c36b66b2f28627f06537f94302852c7e2ee5",
+        "0x370dc5ea4f9146df9ec9418bfdae42c54af7a467f7fc64a90a845f002ab5caea",
+        "0x6c8588d6038f9f853c218053a63a53b38e3c6f20e9c99fc7eda6169e786ded62",
+        "0x284b2c271c1a429b9cff91769fa01c4bcc7c3c066271a98047141d4a89387eb2"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t8",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7"
+      ],
+      "output": [
+        "0x60af8a8334c928049419d5a1e2abaefa6a8c9deafbac025e7647a3623a07cb79"
+      ]
+    },
+    {
+      "instance": "poseidon2-bls12-t8",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5",
+        "0x6",
+        "0x7",
+        "0x8",
+        "0x9",
+        "0xa",
+        "0xb",
+        "0xc",
+        "0xd",
+        "0xe",
+        "0xf"
+      ],
+      "output": [
+        "0x5601e83f8e499c67e4d635f8de8406107d746acb34b2611cb43ef6c0262f6715"
+      ]
+    },
+    {
+      "instance": "poseidon2-bn254-t3",
+      "mode": "permutation",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3"
+      ],
+      "output": [
+        "0x94bef03d4868389ce1dd47bdf00e223c444afccd8644a2934f1dc52cd9abe92",
+        "0xef68f32a47a4f1bc689ecb58accd1eb30e71d00b5dde396b2fafb5e4219fce0",
+        "0x2595a09b1a079361b14f95842dd5a048044ecb63eaaab7a886ea9fef3043cb0c"
+      ]
+    },
+    {
+      "instance": "poseidon2-bn254-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2"
+      ],
+      "output": [
+        "0x4189f16cbe66b94511707734dd5fad4be1a2c98ae730f53d41f9b5668da5588"
+      ]
+    },
+    {
+      "instance": "poseidon2-bn254-t3",
+      "mode": "sponge",
+      "input": [
+        "0x1",
+        "0x2",
+        "0x3",
+        "0x4",
+        "0x5"
+      ],
+      "output": [
+        "0x1e1db288552ab4d5ffff1fb355bca900bf4ce85e80df6ca1f553dae5798dffea"
+      ]
+    }
+  ]
+}
